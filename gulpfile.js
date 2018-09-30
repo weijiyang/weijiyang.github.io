@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var connect = require('gulp-connect');
 var sass = require('gulp-sass');
 var prefix = require('gulp-autoprefixer');
 var imagemin = require('gulp-imagemin');
@@ -11,8 +12,7 @@ var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 
 // Build the Jekyll Site
 gulp.task('jekyll-build', function (done) {
-    return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
-        .on('close', done);
+    return cp.spawn( jekyll , ['build'], {stdio: 'inherit'}).on('close', done);
 });
 
 // Rebuild Jekyll and page reload
@@ -29,7 +29,13 @@ gulp.task('browser-sync', ['sass', 'img', 'jekyll-build'], function() {
         notify: false
     });
 });
-
+//add webserver 
+gulp.task('webserver',function(){
+    connect.server({
+        livereload : true,
+        port : 1234
+    })
+});
 // Compile files
 gulp.task('sass', function () {
     return gulp.src('assets/css/scss/main.scss')
@@ -65,4 +71,4 @@ gulp.task('watch', function () {
 });
 
 //  Default task
-gulp.task('default', ['browser-sync', 'watch']);
+gulp.task('default', ['browser-sync', 'watch','webserver']);
