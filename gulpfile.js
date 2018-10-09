@@ -28,13 +28,6 @@ gulp.task('browser-sync', ['sass', 'img', 'jekyll-build'], function() {
         notify: false
     });
 });
-//add webserver 
-gulp.task('webserver',function(){
-    connect.server({
-        livereload : true,
-        port : 1234
-    })
-});
 // Compile files
 gulp.task('sass', function () {
     return gulp.src('assets/css/scss/main.scss')
@@ -70,4 +63,4 @@ gulp.task('watch', function () {
 });
 
 //  Default task
-gulp.task('default', ['browser-sync', 'watch','webserver']);
+gulp.task('default', ['browser-sync', 'watch']);
