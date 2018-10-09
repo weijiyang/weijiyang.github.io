@@ -17,7 +17,7 @@ social-linkedin: # add your Linkedin handle
 social-email: crawling_snail@163.com # add your Email address
 
 # Disqus
-discus-identifier: mr-brown # add your discus identifier
+discus-identifier: # add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
