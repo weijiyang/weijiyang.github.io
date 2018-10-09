@@ -7,9 +7,9 @@ img: mac.jpg # Add image post (optional)
 fig-caption: mac环境变量配置
 tags: [mac]
 ---
+MAC 配置环境变量
+
 # MAC 环境变量配置
-
-
 拿今天安装nvm为例  安装后nvm指令在终端提示不是环境变量
 先到~目录下      '~ ' ==  'User/username/'
 然后ls命令查看是否有.bash_profile文件
