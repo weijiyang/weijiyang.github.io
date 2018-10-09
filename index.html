@@ -9,7 +9,7 @@ layout: main
   {% endif %}
   <div class="post-content">
     <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-    <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
+    <p>{{ post.description }}</p>
     <span class="post-date">{{post.date | date: '%Y, %b %d'}}</span>
   </div>
 </article>
