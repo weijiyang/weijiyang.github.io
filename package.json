@@ -4,7 +4,7 @@
   "description": "A starter project for Jekyll",
   "main": "index.js",
   "repository": "https://github.com/weijiyang",
-  "author": "Artem Sheludko",
+  "author": "weijiyang",
   "license": "MIT",
   "dependencies": {
     "child_process": "^1.0.2",
