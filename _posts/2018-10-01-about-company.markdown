@@ -8,7 +8,7 @@ fig-caption: 美菜
 tags: [company, me]
 ---
 
-## 介绍一下我的公司吧 - [美菜][http://www.meicai.cn/]
+## 介绍一下我的公司 - [美菜][url]
 ![美菜首页]({{site.baseurl}}/assets/img/company/company_index.png)
 
 ## 美菜
@@ -32,3 +32,5 @@ tags: [company, me]
 * 诚信：言行坦荡 表里如一
 * 坚定：坚持梦想 永不言弃
 * 敬业：专业专注 全力以赴
+
+[url]: http://www.meicai.cn/
