@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "requestAnimationFrame"
+title: requestAnimationFrame
 date: 2018-10-10 13:32:20 +0300
 description: requestAnimationFrame、setTimeout、setInterval区别
 tags: [requestAnimationFrame]

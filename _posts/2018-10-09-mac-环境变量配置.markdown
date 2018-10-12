@@ -3,7 +3,7 @@ layout: post
 title: mac环境变量配置
 date: 2018-10-9 12:00:00
 description: mac环境变量配置
-img: mac.jpg # Add image post (optional)
+img: mac.jpg
 fig-caption: mac环境变量配置
 tags: [mac]
 ---

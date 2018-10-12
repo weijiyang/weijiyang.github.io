@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vue小知识点"
+title: Vue小知识点
 date: 2018-10-10 13:32:20 +0300
 description: vue的事件处理、Math.abs、Math.ceil、vue中的指令两种写法、bind&apply&call
 tags: [Vue]
@@ -39,7 +39,7 @@ binding参数包括下面的属性
   expression：字符串形式的指令表达式。例如 v-my-directive="1 + 1" 中，表达式为 "1 + 1"。
   arg：传给指令的参数，可选。例如 v-my-directive:foo 中，参数为 "foo"。
   modifiers：一个包含修饰符的对象。例如：v-my-directive.foo.bar 中，修饰符对象为 { foo: true, bar: true }。
-{% endhignlight %}
+{% endhighlight %}
 
 
 * 下面这段代码中的bind使用不太了解查了一下 
