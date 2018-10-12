@@ -2,7 +2,7 @@
 layout: post
 title: "Vue小知识点"
 date: 2018-10-10 13:32:20 +0300
-description: vue的时间处理、Math.abs、Math.ceil、vue中的指令两种写法、bind&apply&call
+description: vue的事件处理、Math.abs、Math.ceil、vue中的指令两种写法、bind&apply&call
 tags: [Vue]
 ---
 * 学习vue事件处理
