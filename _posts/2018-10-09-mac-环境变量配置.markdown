@@ -18,4 +18,4 @@ tags: [mac]
 * 在终端使用source ~/.bash_profile来让配置生效
 （如果在Mac系统终端使用export写入环境变量配置只是临时的不能长期保存，电脑开机关机后或者重新打开终端或者另一个窗口仍然会回到没有配置环境变量的状态）
 
-![.base_profile's  code]({{site.baseurl}}/assets/img/2018.10.9.png)
+![.base_profile's  code]({{site.baseurl}}/assets/img/2018.10.9/2018.10.9.png)
