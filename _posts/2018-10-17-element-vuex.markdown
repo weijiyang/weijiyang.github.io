@@ -25,8 +25,8 @@ computed: {
 
 * 问题出现的原因在于我们在使用Element菜单与Tab联动的时候、使用了computed或者是mapGetters 当我们使用dispatch调用actions mutations对state变量更改时   使用场景中的v-model也随之更改 这时就会出现上面的错误。
 * 下面是解决方法：
-```
 
+```
 js：
 computed: {
   route: {
