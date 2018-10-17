@@ -446,10 +446,9 @@ template {
 .highlighter-rouge {
   color: #ce887b;
   font-weight: 400;
-  padding:20px 0;
   -webkit-border-radius: 3px;
           border-radius: 3px;
-  padding: 0.1rem 0.5rem;
+  padding: 0.5rem 0.1rem;
 }
 
 .highlight .hll {
