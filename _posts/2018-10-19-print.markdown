@@ -3,7 +3,7 @@ layout: post
 title: vue项目开发中如何实现打印功能？？？
 date: 2018-10-19
 description: 简单介绍几种打印解决方案
-tags: [web]
+tags: [js, Vue, print]
 ---
 
 ## 方案1
@@ -23,7 +23,7 @@ window.location.reload() // 刷新解决页面无法点击
 
 ## 方案2
 
-* 使用css3 中的@media print 来特殊标识打印设备 对齐设置相应样式 具体使用方法详见: [@media][media]
+* 使用css3 中的@media print 来特殊标识打印设备 对齐设置相应样式 具体使用方法详见: [@media][media] 
 
 ```
 @media print {
@@ -34,8 +34,8 @@ window.location.reload() // 刷新解决页面无法点击
 ```
 ## 方案3
 
-* 通过上面的例子我们可以发现window.print打印的是该页面的body内的innerHTML 所以为什么不适用iframe标签呢
-[iframe][iframe]
+* 通过上面的例子我们可以发现window.print打印的是该页面的body内的innerHTML 所以为什么不适用iframe标签呢 
+[iframe][iframe] 
 
 ```
 <html>
@@ -81,5 +81,5 @@ export default {
 </script>
 ```
 
-media : http://www.runoob.com/cssref/css3-pr-mediaquery.html
-iframe : http://www.w3school.com.cn/tags/tag_iframe.asp
+[media] : http://www.runoob.com/cssref/css3-pr-mediaquery.html
+[iframe] : http://www.w3school.com.cn/tags/tag_iframe.asp
