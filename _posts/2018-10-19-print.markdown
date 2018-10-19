@@ -81,5 +81,5 @@ export default {
 </script>
 ```
 
-[media] : http://www.runoob.com/cssref/css3-pr-mediaquery.html
-[iframe] : http://www.w3school.com.cn/tags/tag_iframe.asp
+[media]: http://www.runoob.com/cssref/css3-pr-mediaquery.html
+[iframe]: http://www.w3school.com.cn/tags/tag_iframe.asp
