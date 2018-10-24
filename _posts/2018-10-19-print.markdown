@@ -81,5 +81,22 @@ export default {
 </script>
 ```
 
+项目开发过程中出现了 问题就是父组件调用子组件的方法时 子组件数据还未渲染 所以需要使用$nextTick 详细用法见官方文档
+
+```
+<sweb-print :swebData="iframeContent" v-if="iframeContent" ref="sweb-iframe"></sweb-print>
+ print () {
+      this.printSupOrder().then(res => {
+        this.iframeContent = res.data
+        this.$nextTick(() => {
+          this.$refs['sweb-iframe'].doPrint()
+        })
+      }).catch(err => {
+        this.$message.error(err.error.msg)
+      })
+    }
+```
+
+
 [media]: http://www.runoob.com/cssref/css3-pr-mediaquery.html
 [iframe]: http://www.w3school.com.cn/tags/tag_iframe.asp
