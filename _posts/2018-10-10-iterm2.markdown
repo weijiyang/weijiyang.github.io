@@ -3,7 +3,7 @@ layout: post
 title: "iterm2快捷键"
 date: 2018-10-10
 description: iterm2快捷键学习
-tags: [iterm2]
+tags: [Iterm2]
 ---
 
 * 查找: Cmd+f

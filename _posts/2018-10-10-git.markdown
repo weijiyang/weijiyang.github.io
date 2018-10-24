@@ -3,7 +3,7 @@ layout: post
 title: git 常用指令
 date: 2018-10-10 13:32:20 +0300
 description: git 常用指令介绍
-tags: [git]
+tags: [Git]
 ---
 
 * git branch name 创建分支

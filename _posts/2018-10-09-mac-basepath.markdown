@@ -5,7 +5,7 @@ date: 2018-10-9 12:00:00
 description: mac环境变量配置
 img: mac.jpg
 fig-caption: mac环境变量配置
-tags: [mac]
+tags: [MAC]
 ---
 # MAC 环境变量配置
 拿今天安装nvm为例  安装后nvm指令在终端提示不是环境变量

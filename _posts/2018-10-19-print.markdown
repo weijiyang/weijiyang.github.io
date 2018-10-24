@@ -3,7 +3,7 @@ layout: post
 title: vue项目开发中如何实现打印功能？？？
 date: 2018-10-19
 description: 简单介绍几种打印解决方案
-tags: [js, Vue, print]
+tags: [JS, Vue, print]
 ---
 
 ## 方案1

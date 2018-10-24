@@ -3,7 +3,7 @@ layout: post
 title: 当浏览器输入URL后经历了什么？
 date: 2018-10-10 13:32:20 +0300
 description: 介绍页面是如何从最初的URL最终渲染出来的
-tags: [web]
+tags: [WEB]
 ---
 当在浏览器中输入url搜索后都经历了什么？？？
 * 创建连接

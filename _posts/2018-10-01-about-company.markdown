@@ -5,7 +5,7 @@ date: 2018-10-01 12:00:00
 description: 美菜网
 img: company/company.png
 fig-caption: 美菜
-tags: [company, me]
+tags: [COMPANY, ME]
 ---
 
 ## 介绍一下我的公司 - [美菜][url]
