@@ -1,8 +1,8 @@
 ---
 layout: post
-title: webpack 项目中的package.lock.json的作用？
+title: webpack 项目中的package-lock.json的作用？
 date: 2018-11-26 00:00:00 +0300
-description: 区分package.json 和 package.lock.json的区别
+description: 区分package.json 和 package-lock.json的区别
 tags: [webpack, config]
 ---
 ## webpack 项目中的package.lock.json文件有什么作用？
@@ -14,4 +14,4 @@ package.json文件只能锁定大版本，也就是版本号的第一位，并�
 像本次在项目开发中无配置问题 提示webpack-dev-server is not command 而我们npm install --save-dev webpack-dev-server 下载npm包失败 原因定位了很久  
 
 
-原因在于package.lock.json文件中使用的版本依赖发生问题、而webpack默认会优先执行package.lock.json文件 来解析相关依赖  所以我的做法是将该文件置空 重新运行命令  webpack会执行package.json文件 同时将package.lock.json文件进行新的依赖覆盖
+原因在于package-lock.json文件中使用的版本依赖发生问题、而webpack默认会优先执行package-lock.json文件 来解析相关依赖  所以我的做法是将该文件置空 重新运行命令  webpack会执行package.json文件 同时将package-lock.json文件进行新的依赖覆盖
