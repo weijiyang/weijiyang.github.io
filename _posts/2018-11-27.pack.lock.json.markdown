@@ -3,7 +3,7 @@ layout: post
 title: webpack 项目中的package.lock.json的作用？
 date: 2018-11-26 00:00:00 +0300
 description: 区分package.json 和 package.lock.json的区别
-tags: [HTML]
+tags: [webpack, config]
 ---
 ## webpack 项目中的package.lock.json文件有什么作用？
 
