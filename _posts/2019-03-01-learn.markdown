@@ -1,13 +1,14 @@
 ---
 layout: post
-title: 学习过程中看到的好文章记录一下~
-date: 2020-03-01 00:00:00 +0300
+title: 优秀的文章
+date: 2019-03-01 00:00:00 +0300
 description: 链接汇总
 tags: [Learning]
 ---
 
-* [前端缓存][url0]
-* [Babel如何工作][url1]
-
+* [一文读懂前端缓存][url0]
+* [深入Babel，这一篇就够了][url1]
+* [2018 年年终总结 - J_Knight_] [url2]
 [url0]: https://juejin.im/post/5c22ee806fb9a049fb43b2c5
 [url1]: https://juejin.im/post/5c21b584e51d4548ac6f6c99
+[url2]: https://juejin.im/post/5c1fa32751882537c0766e30
