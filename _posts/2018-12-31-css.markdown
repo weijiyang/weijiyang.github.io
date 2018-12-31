@@ -19,3 +19,5 @@ tags: [css]
 * [:empty](https://codepen.io/Chokcoco/pen/VmvWpG) `:empty`伪类：代表没有子元素的元素。这里说的子元素，只计算元素结点及文本（包括空格），注释、运行指令不考虑在内
 * [:not](http://www.w3school.com.cn/cssref/selector_not.asp) 可以选择除某个元素之外的所有元素。
 * [:target](https://codepen.io/Chokcoco/pen/mAxQBv) 锚点接收点击事件
+* font-family: tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif; 从左至右 如果没有该字体使用右面一种字体
+* [position: sticky](https://www.cnblogs.com/s1nker/p/4835079.html) 黏性布局 支持性不是很好
