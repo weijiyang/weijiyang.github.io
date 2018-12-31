@@ -1,0 +1,16 @@
+---
+layout: post
+title: css 中不常用的属性
+date: 2018-12-19 00:00:00 +0300
+description: 记录开发中不常用到的 但是很炫酷的属性（配demo）
+tags: [css]
+---
+
+## 神奇的CSS
+
+* [mask](https://codepen.io/HelKyle/pen/ePyENP/) 实现类似Canvas clip效果
+* [background-clip](https://codepen.io/Chokcoco/pen/QKyZPb) 实现背景色&背景图片填充效果
+* [background-image: inherit](https://codepen.io/Chokcoco/pen/dppARA) 伪类实现倒影
+* [scale(-1)](http://js.jirengu.com/bidebipisa/4/edit?html,css,output) 翻转图片不只有rotate
+* [:target](https://codepen.io/Chokcoco/pen/mAxQBv) 锚点接收点击事件
+* [兄弟选择符 ~](https://codepen.io/Chokcoco/pen/mAxQBv) E~F 只能选择 E 元素 之后 的 F 元素
