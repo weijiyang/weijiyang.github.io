@@ -20,14 +20,16 @@ tags: [css]
 * [:not](http://www.w3school.com.cn/cssref/selector_not.asp) 可以选择除某个元素之外的所有元素。
 * [:target](https://codepen.io/Chokcoco/pen/mAxQBv) 锚点接收点击事件
 * font-family: tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif; 从左至右 如果没有该字体使用右面一种字体
-* [position: sticky](https://www.cnblogs.com/s1nker/p/4835079.html) 黏性布局 支持性不是很好
+* [position: sticky](https://www.cnblogs.com/s1nker/p/4835079.html) 黏性布局 支持性不是很好！！！
 * [animation-play-state](https://codepen.io/Chokcoco/pen/QpJwBW) 控制动画停止&继续
 * `css属性值`：
 1. initial : 默认值
 2. inherit : 继承
 3. unset : 未设置
 4. revert : 还原
-
+* [vw vh vmin vmax](https://github.com/chokcoco/iCSS/issues/15) vw、vh是相对于浏览器窗口的百分比 而vmin是比较vw、vh中的较小值 vmax同理 一般用于横竖屏切换
+* [background: conic-gradient()](https://github.com/chokcoco/iCSS/issues/19) 圆锥色阶过渡     兼容性不是很好！！！
+* [mix-blend-mode](https://github.com/chokcoco/iCSS/issues/16) 不同的颜色混合可以实现很炫酷的效果
 
 ## CSS性能优化
 
