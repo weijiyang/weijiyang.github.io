@@ -101,6 +101,8 @@ a {
   /* 1 */
   -webkit-text-decoration-skip: objects;
   /* 2 */
+  padding: 0 10px;
+  font-weight: 700;
 }
 
 /**
