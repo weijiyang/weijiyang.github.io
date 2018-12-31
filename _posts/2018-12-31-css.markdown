@@ -13,5 +13,9 @@ tags: [css]
 * [background-clip](https://codepen.io/Chokcoco/pen/QKyZPb) 实现背景色&背景图片填充效果
 * [background-image: inherit](https://codepen.io/Chokcoco/pen/dppARA) 伪类实现倒影
 * [scale(-1)](http://js.jirengu.com/bidebipisa/4/edit?html,css,output) 翻转图片不只有rotate
-* [:target](https://codepen.io/Chokcoco/pen/mAxQBv) 锚点接收点击事件
 * [兄弟选择符 ~](https://codepen.io/Chokcoco/pen/mAxQBv) E~F 只能选择 E 元素 之后 的 F 元素
+* [clip-path](https://codepen.io/Chokcoco/pen/WoeQWY) SVG 的 CSS版本 用来实现不规则形状裁剪
+* [:root](http://www.w3school.com.cn/cssref/selector_root.asp) `:root`伪类匹配文档树的根元素 可用来声明全局css变量
+* [:empty](https://codepen.io/Chokcoco/pen/VmvWpG) `:empty`伪类：代表没有子元素的元素。这里说的子元素，只计算元素结点及文本（包括空格），注释、运行指令不考虑在内
+* [:not](http://www.w3school.com.cn/cssref/selector_not.asp) 可以选择除某个元素之外的所有元素。
+* [:target](https://codepen.io/Chokcoco/pen/mAxQBv) 锚点接收点击事件
