@@ -14,6 +14,7 @@ tags: [Learning]
 * [Koa框架教程][url4]
 * [当「SPA」应用遇上了膨胀的项目][url5]
 * [如何给女朋友解释什么是DDoS攻击？][url6]
+* [如何给女朋友解释什么是IO中的阻塞、非阻塞、同步、异步？][url7]
 
 
 [url0]: https://juejin.im/post/5c22ee806fb9a049fb43b2c5
@@ -23,3 +24,4 @@ tags: [Learning]
 [url4]: http://www.ruanyifeng.com/blog/2017/08/koa.html
 [url5]: https://juejin.im/post/5c18b5f15188252dcb31072a#comment
 [url6]: https://juejin.im/post/5c03fb706fb9a049cd53f1a4
+[url7]: https://juejin.im/post/5b94e2995188255c5c45d0ec
