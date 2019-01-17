@@ -11,6 +11,7 @@ tags: [Learning]
 * [SVG技术入门：如何画出一条会动的线][http://www.webhek.com/post/animated-line-drawing-in-svg.html]
 * [深入理解定时器系列第二篇——被誉为神器的requestAnimationFrame][https://www.cnblogs.com/xiaohuochai/p/5777186.html]
 * [学习HTML5 Canvas这一篇文章就够了][https://blog.csdn.net/u012468376/article/details/73350998]
+* [前后端分离的优缺点][https://blog.csdn.net/moonpure/article/details/79770404]
 
 ## JS
 * [ECMAScript 6 入门][http://es6.ruanyifeng.com/]
