@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 优秀的文章
+title: 优秀文章汇总
 date: 2020-03-01 00:00:00 +0300
 description: 链接汇总
 img: software.jpg
@@ -12,10 +12,13 @@ tags: [Learning]
 * [深入理解定时器系列第二篇——被誉为神器的requestAnimationFrame][https://www.cnblogs.com/xiaohuochai/p/5777186.html]
 * [学习HTML5 Canvas这一篇文章就够了][https://blog.csdn.net/u012468376/article/details/73350998]
 
+## JS
+* [ECMAScript 6 入门][http://es6.ruanyifeng.com/]
+* [深入理解JavaScript系列][http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html]
+* [js键盘按钮keyCode及示例大全][https://www.cnblogs.com/daysme/p/6272570.html]
 
 ## Vue
 * [优化Vue项目的构建速度][https://anran758.github.io/blog/2018/01/06/%E4%BC%98%E5%8C%96Vue%E9%A1%B9%E7%9B%AE%E7%9A%84%E6%9E%84%E5%BB%BA%E9%80%9F%E5%BA%A6/]
-
 
 ## webpack
 * [手摸手，带你用合理的姿势使用webpack4（上)][url8]
@@ -28,18 +31,16 @@ tags: [Learning]
 * [webpack打包原理和manifest文件分析][https://blog.csdn.net/lancewu0907/article/details/76513231]
 * [简要分析webpack打包后代码][https://segmentfault.com/a/1190000006814420]
 * [深入理解webpack打包机制][https://www.cnblogs.com/xuepei/p/8892724.html]
-
+* [手写一个webpack4.0配置][https://juejin.im/post/5b4609f5e51d4519596b66a7]
 
 ## Node
 * [Node环境变量 process.env 的那些事儿][https://segmentfault.com/a/1190000011683741]
-
+* [Koa框架教程][url4]
 
 ## Tips
 * [一文读懂前端缓存][url0]
 * [深入Babel，这一篇就够了][url1]
 * [2018年，JavaScript都经历了什么？][url2]
-* [优化Vue项目的构建速度][url3]
-* [Koa框架教程][url4]
 * [当「SPA」应用遇上了膨胀的项目][url5]
 * [如何给女朋友解释什么是DDoS攻击？][url6]
 * [如何给女朋友解释什么是IO中的阻塞、非阻塞、同步、异步？][url7]
@@ -48,7 +49,6 @@ tags: [Learning]
 [url0]: https://juejin.im/post/5c22ee806fb9a049fb43b2c5
 [url1]: https://juejin.im/post/5c21b584e51d4548ac6f6c99
 [url2]: https://blog.fundebug.com/2018/12/25/what-happens-in-2018-for-javascript/
-[url3]: https://anran758.github.io/blog/2018/01/06/%E4%BC%98%E5%8C%96Vue%E9%A1%B9%E7%9B%AE%E7%9A%84%E6%9E%84%E5%BB%BA%E9%80%9F%E5%BA%A6/
 [url4]: http://www.ruanyifeng.com/blog/2017/08/koa.html
 [url5]: https://juejin.im/post/5c18b5f15188252dcb31072a#comment
 [url6]: https://juejin.im/post/5c03fb706fb9a049cd53f1a4
