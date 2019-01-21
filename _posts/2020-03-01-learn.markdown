@@ -27,6 +27,7 @@ tags: [Learning]
 
 ## Vue
 * [优化Vue项目的构建速度][https://anran758.github.io/blog/2018/01/06/%E4%BC%98%E5%8C%96Vue%E9%A1%B9%E7%9B%AE%E7%9A%84%E6%9E%84%E5%BB%BA%E9%80%9F%E5%BA%A6/]
+* [如何理解vue的v-model指令][https://segmentfault.com/a/1190000010744545]
 
 ## webpack
 * [手摸手，带你用合理的姿势使用webpack4（上)][url8]
