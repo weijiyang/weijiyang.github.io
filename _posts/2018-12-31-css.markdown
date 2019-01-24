@@ -30,6 +30,7 @@ tags: [css]
 * [vw vh vmin vmax](https://github.com/chokcoco/iCSS/issues/15) vw、vh是相对于浏览器窗口的百分比 而vmin是比较vw、vh中的较小值 vmax同理 一般用于横竖屏切换
 * [background: conic-gradient()](https://github.com/chokcoco/iCSS/issues/19) 圆锥色阶过渡     兼容性不是很好！！！
 * [mix-blend-mode](https://github.com/chokcoco/iCSS/issues/16) 不同的颜色混合可以实现很炫酷的效果
+* [pointer-events: none](https://www.cnblogs.com/zichi/p/9068481.html) 实现点击元素下面的内容&内容不可点&内容无hover效果
 
 ## CSS性能优化
 
