@@ -40,7 +40,7 @@ tags: [Learning]
 * [webpack打包原理和manifest文件分析](https://blog.csdn.net/lancewu0907/article/details/76513231)
 * [简要分析webpack打包后代码](https://segmentfault.com/a/1190000006814420)
 * [深入理解webpack打包机制](https://www.cnblogs.com/xuepei/p/8892724.html)
-* [手写一个webpack4.0配置](ttps://juejin.im/post/5b4609f5e51d4519596b66a7)
+* [手写一个webpack4.0配置](https://juejin.im/post/5b4609f5e51d4519596b66a7)
 
 ## Node
 * [Node环境变量 process.env 的那些事儿](https://segmentfault.com/a/1190000011683741)
