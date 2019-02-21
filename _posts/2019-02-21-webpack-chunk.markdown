@@ -2,10 +2,10 @@
 layout: post
 title: webpack chunk相关分享
 date: 2019-02-21 12:00:00
-description: mac环境变量配置
+description: (๑•̀ㅂ•́)و✧还在为学不会webpack而发愁么，还在因为概念过多而烦恼嘛
 img: webpack.jpeg
-fig-caption: mac环境变量配置
-tags: [MAC]
+fig-caption: (๑•̀ㅂ•́)و✧ webpack
+tags: [webpack]
 ---
 ## webpack chunk相关分享
 > 还在为学不会webpack而发愁么，还在因为概念过多而烦恼嘛 欢迎大家来看本次分享
