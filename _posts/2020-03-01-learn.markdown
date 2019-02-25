@@ -55,6 +55,7 @@ tags: [Learning]
 * [github 图片徽章](https://shields.io/#/)
 * [百度脑图](http://naotu.baidu.com/)
 * [在线markdown文本编辑器](https://www.zybuluo.com/mdeditor)
+* [jsfiddle 在线demo开发工具](https://jsfiddle.net/)
 
 [url0]: https://juejin.im/post/5c22ee806fb9a049fb43b2c5
 [url1]: https://juejin.im/post/5c21b584e51d4548ac6f6c99
