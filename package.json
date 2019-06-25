@@ -8,7 +8,6 @@
   "license": "MIT",
   "dependencies": {
     "child_process": "^1.0.2",
-    "hexo-helper-live2d": "^3.1.1",
     "jekyll": "^3.0.0-beta1"
   },
   "devDependencies": {
