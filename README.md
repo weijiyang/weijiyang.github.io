@@ -15,24 +15,9 @@
 
 > 微信：wei845612246 | https://github.com/weijiyang
 
-> 求职意向：前端开发工程师
-
-* 前端框架：Vue全家桶
-* UI框架：Element UI、Mint UI
-* 可视化工具：Echarts、v-charts
-* 性能优化：Service Worker、 Chrome devtool
-* 代码编辑工具：vscode、submit、vim
-* 命令行工具：iterm2
-* 前端工具：Webpack、 Eslint、Sentry、 Sass、 Less
-* 抓包工具：Fiddler、Charles
-* 服务端工具：Node、NPM、Koa2、pm2、Shell、Nginx、Linux命令、postman
-* 数据库相关：MySQL(navicat)、mongoDB(Robo3T)
-* 版本管理：Svn、Git、nrm、nvm
-* 操作系统：Mac、Windows
-
 ## 工作经历
-
-### 美菜网 2018年6月 - 至今
+### 腾讯  2020年4月 - 至今
+### 美菜网 2018年6月 - 2020年3月
 
 > 前端开发工程师 供应链 北京
 
