@@ -1,10 +1,220 @@
-<html>
-    <head>
-        <title>index</title>
-    </head>
-    <body>
-       <h1>我是index</h1> 
-       <a href="/111.html">点我跳转111</a>
-       <a href="/222.html">点我跳转222</a>
-      </body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.ico" type="images/x-ico" />
+    <title>失物小站</title>
+    <link rel="stylesheet" href="css/animista.css">
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        /* .bg{
+            background-image: url(img/beijing.png);
+        } */
+        .container {
+            background-color: #e2f7fa;
+        }
+
+        /* PC端样式 */
+        @media only screen and (min-width: 769px) {
+            .container {
+                width: 390px;
+                /* 手机端宽度 */
+                height: 900px;
+                /* 手机端高度 */
+                margin: auto;
+                /* 水平居中 */
+                position: relative;
+                /* 用于显示容器边界 */
+            }
+        }
+
+
+        /* logo动画 */
+        .slide-in-elliptic-top-fwd {
+            -webkit-animation: slide-in-elliptic-top-fwd 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-in-elliptic-top-fwd 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        }
+
+        /* 大标题 */
+        .roll-in-blurred-left {
+            -webkit-animation: roll-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.5s both;
+            animation: roll-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.5s both;
+        }
+
+        /* 标题英文标注 */
+        .roll-in-blurred-right {
+            -webkit-animation: roll-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+            animation: roll-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+        }
+
+        /* 脚丫动漫 */
+        .foot {
+            display: none;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            margin-top: 10px;
+            z-index: 5;
+        }
+
+        #firstFoot {
+            width: 50%;
+        }
+
+        #secondFoot {
+            width: 40%;
+        }
+
+        #threeFoot {
+            width: 30%;
+        }
+
+        @keyframes bounceIn {
+            0% {
+                transform: translateY(0);
+            }
+
+            30% {
+                transform: translateY(-30px);
+            }
+
+            60% {
+                transform: translateY(-15px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        /* 底部标题 */
+        .bounce-in-right {
+            -webkit-animation: bounce-in-right 1.2s both 2.5s;
+            animation: bounce-in-right 1.2s both 2.5s;
+        }
+
+        .bounce-in-left {
+            -webkit-animation: bounce-in-left 1.2s 3s both;
+            animation: bounce-in-left 1.2s 3s both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- 背景 -->
+        <div class="bg">
+        </div>
+        <!-- logo -->
+        <div class="logo ">
+            <img src="img/logo.png" alt="" style="width: 45%; position: absolute; top: 10%; left: 28%; z-index: 10;"
+                class="slide-in-elliptic-top-fwd">
+        </div>
+        <!-- 背景大标题 -->
+        <div class="logoTitle">
+            <img src="img/bigTittle.png" alt="" style="width: 60%; position: absolute; top: 35%; left: 21%; z-index: 9;"
+                class="roll-in-blurred-left">
+        </div>
+        <!-- 背景英文标注 -->
+        <div class="engTitle">
+            <img src="img/egTitle.png" alt="" style="width: 50%; position: absolute; top: 44%; left: 25%; z-index: 8;"
+                class="roll-in-blurred-right">
+        </div>
+        <!-- 第一步 -->
+        <div class="firstFoot">
+            <img src="img/firstFoot.png" alt=""
+                style="width: 50%; position: absolute; bottom: 28%; right: 5%; margin-top: 10px; z-index: 7;"
+                id="firstFoot" class="foot">
+        </div>
+        <!-- 第二步 -->
+        <div class="secondFoot">
+            <img src="img/twpFoot.png" alt=""
+                style="width: 40%; position: absolute;  bottom: 25%; right: 5% ;margin-top: 10px; z-index: 6;"
+                id="secondFoot" class="foot">
+        </div>
+        <!-- 第三步 -->
+        <div class="threeFoot">
+            <img src="img/threeFoot.png" alt=""
+                style="width: 30%; position: absolute;   bottom: 15%; right: 2% ;margin-top: 10px; z-index: 5;"
+                id="threeFoot" class="foot">
+        </div>
+        <!-- 底部大标题 -->
+        <div class="bottomTitle">
+            <img src="img/title.png" alt="" style="width: 60%; position: absolute;  bottom: 9%; right: 0; z-index: 4;"
+                class="bounce-in-right">
+        </div>
+        <!-- 底部英文标注 -->
+        <div class="begTitle">
+            <img src="img/egtitle2.png" alt=""
+                style="width: 55%; position: absolute; bottom: 5%;  right: 0%; margin-top: 10px; z-index: 3;"
+                class="bounce-in-left">
+        </div>
+        <!-- 背景右上角特效 -->
+        <!-- <div class="rightBg">
+          <img src="img/texiao.png" alt="" style="width: 50%; position: absolute; right: -20%; top: -10%;  z-index: 2; overflow: hidden;">
+        </div> -->
+        <!-- 背景左下角特效 -->
+        <!-- <div class="leftBg">
+          <img src="../assets/img/leftBg.png" alt=""
+            style="width: 50%;  position: absolute; left: -25%; bottom: -25%; z-index: 1; border-radius: 50%;">
+        </div> -->
+        <div class="btn">
+
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const firstFoot = document.getElementById('firstFoot');
+            const secondFoot = document.getElementById('secondFoot');
+            const threeFoot = document.getElementById('threeFoot');
+
+            function showFootstep() {
+                threeFoot.style.display = 'none';
+                setTimeout(() => {
+                    threeFoot.style.display = 'block';
+                    setTimeout(() => {
+                        secondFoot.style.display = 'block';
+                        setTimeout(() => {
+                            setTimeout(() => {
+                                firstFoot.style.display = 'block';
+                                setTimeout(() => {
+                                }, 500);
+                            }, 500);
+                        }, 500);
+                    }, 500);
+                }, 1500);
+            }
+
+            showFootstep();
+        });
+        // 延迟一定时间后跳转到另外一个页面
+        function redirectToAnotherPage() {
+            setTimeout(() => {
+                window.location.href = '/index1.html';
+            }, 1500);
+        }
+
+        // 等待动画结束后再跳转
+        document.addEventListener("DOMContentLoaded", function () {
+            // 获取所有带有 bounce-in-left 类的元素
+            const animatedElements = document.querySelectorAll('.bounce-in-left');
+
+            // 添加动画结束事件监听器
+            animatedElements.forEach(element => {
+                element.addEventListener('animationend', redirectToAnotherPage);
+            });
+        });
+    </script>
+</body>
+
 </html>
